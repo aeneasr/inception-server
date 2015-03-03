@@ -7,6 +7,7 @@
 # MIT License
 #
 
+include_recipe "golang::default"
 include_recipe "bosh_inception::mount_store_volume"
 include_recipe "bosh_inception::useful_dirs"
 include_recipe "bosh_inception::packages"
